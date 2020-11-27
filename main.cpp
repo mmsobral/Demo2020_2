@@ -1,7 +1,11 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    for (int j=0; j < 5; j++) {
+        cout << "Hello, World!" << endl;
+    }
 
     return 0;
 }
